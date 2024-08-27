@@ -2,7 +2,7 @@
 import { delay } from "@/utils/LinkRoute";
 import React, { useEffect, useState } from "react";
 
-const template = ({
+const Template = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -26,4 +26,4 @@ const template = ({
   );
 };
 
-export default template;
+export default Template;
