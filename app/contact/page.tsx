@@ -34,10 +34,6 @@ export const metadata = {
   title: "Contact",
 };
 
-export function Indent({ children }: any) {
-  return <div className=" ml-4">{children}</div>;
-}
-
 const Page = () => {
   return (
     <div className="container min-h-screen py-36 mx-auto">
