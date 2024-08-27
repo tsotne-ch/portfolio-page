@@ -44,7 +44,7 @@ const Page = () => {
             </a>
             , currently working on improving Android/IOS app development with{" "}
             <a
-              className=" border-white inline-block font-bold text-white"
+              className=" border-white inline-block font-bold"
               href="https://expo.dev/"
             >
               Expo
