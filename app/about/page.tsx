@@ -83,44 +83,47 @@ const Page = () => {
             href="https://laravel.com/"
             className="hover:scale-125 duration-200 ease-out transition-transform"
           >
-            <FaLaravel size={"2rem"} />
+            <FaLaravel size={"1.7rem"} />
           </Link>
           <Link
             href="https://nextjs.org/"
             className="hover:scale-125 duration-200 ease-out transition-transform"
           >
-            <SiNextdotjs className="dark:text-white text-black" size={"2rem"} />
+            <SiNextdotjs
+              className="dark:text-white text-black"
+              size={"1.7rem"}
+            />
           </Link>
 
           <Link
             href="https://expo.dev/"
             className="hover:scale-125 duration-200 ease-out transition-transform"
           >
-            <SiExpo className="dark:text-white text-black" size={"2rem"} />
+            <SiExpo className="dark:text-white text-black" size={"1.7rem"} />
           </Link>
           <Link
             href="https://expressjs.com/"
             className="hover:scale-125 duration-200 ease-out transition-transform"
           >
-            <SiExpress className="dark:text-white text-black" size={"2rem"} />
+            <SiExpress className="dark:text-white text-black" size={"1.7rem"} />
           </Link>
           <Link
             href="https://www.postgresql.org/"
             className="hover:scale-125 duration-200 ease-out transition-transform"
           >
-            <BiLogoPostgresql size={"2rem"} />
+            <BiLogoPostgresql size={"1.7rem"} />
           </Link>
           <Link
             href="https://www.mongodb.com/"
             className="hover:scale-125 duration-200 ease-out transition-transform"
           >
-            <SiMongodb className="dark:text-white text-black" size={"2rem"} />
+            <SiMongodb className="dark:text-white text-black" size={"1.7rem"} />
           </Link>
           <Link
             href="https://react.dev/"
             className="hover:scale-125 duration-200 ease-out transition-transform"
           >
-            <SiReact className="dark:text-white text-black" size={"2rem"} />
+            <SiReact className="dark:text-white text-black" size={"1.7rem"} />
           </Link>
           <Link
             href="https://cplusplus.com/"
@@ -128,14 +131,17 @@ const Page = () => {
           >
             <BiLogoCPlusPlus
               className="dark:text-white text-black"
-              size={"2rem"}
+              size={"1.7rem"}
             />
           </Link>
           <Link
             href="https://firebase.google.com/"
             className="hover:scale-125 duration-200 ease-out transition-transform"
           >
-            <SiFirebase className="dark:text-white text-black" size={"2rem"} />
+            <SiFirebase
+              className="dark:text-white text-black"
+              size={"1.7rem"}
+            />
           </Link>
         </div>
       </BlurFade>
@@ -162,7 +168,7 @@ const Page = () => {
                   className="w-full group-hover:opacity-25 transition-opacity ease-in-out duration-200 rounded-xl"
                 />
                 <div className="absolute opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-200 top-2 left-2 right-2">
-                  <code className="">
+                  <code className="text-xs md:text-base">
                     <span className=" text-blue-400">import </span>
                     <span className=" text-yellow-400"> </span>
                     <span className=" text-white">React</span>
@@ -181,13 +187,14 @@ const Page = () => {
                     <span className=" text-lime-400">./Vekua</span>
                     <span className=" text-cyan-300">";</span>
                     <br></br>
-                    <span className=" text-blue-400">const </span>
-                    <span className=" text-white">App </span>
-                    <span className=" text-purple-400">= </span>
-                    <span className=" text-white">() </span>
-                    <span className=" text-purple-400">={">"} </span>
-                    <span className=" text-yellow-400">{"{"}</span>
                     <br></br>
+                    <span className=" text-blue-400">export </span>
+                    <span className=" text-blue-400">default </span>
+                    <span className=" text-blue-400">function </span>
+                    <span className=" text-white">App </span>
+                    <span className=" text-white">() </span>
+                    <span className=" text-yellow-400">{"{"}</span>
+                    <br />
                     <span className="pl-4">
                       <span className=" text-cyan-300 italic">
                         return {"<"}
@@ -200,20 +207,14 @@ const Page = () => {
                     <br></br>
                     <span className=" text-yellow-400">{"}"}</span>
                     <br />
-                    <br />
-                    <span className=" text-blue-400">export </span>
-                    <span className=" text-blue-400">default </span>
-                    <span className=" text-white">App</span>
-                    <span className=" text-white">;</span>
                   </code>
                 </div>
               </div>
-              <div className="flex gap-3 items-center mt-4">
+              <div className="flex flex-wrap gap-3 items-center mt-4">
                 <Badge variant="secondary">React</Badge>
                 <Badge variant="secondary">Firebase</Badge>
                 <Badge variant="secondary">MongoDB</Badge>
                 <Badge variant="secondary">Express</Badge>
-                <Badge variant="secondary">Vite</Badge>
               </div>
               <div className="flex gap-3 items-center mt-4">
                 <Link href="https://github.com/tsotne-ch/vekua-school">
@@ -247,7 +248,7 @@ const Page = () => {
                   className="w-full group-hover:opacity-25 transition-opacity ease-in-out duration-200 rounded-xl"
                 />
                 <div className="absolute opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-200 top-2 left-2 right-2">
-                  <code className="">
+                  <code className="text-xs md:text-base">
                     <span className=" text-blue-400">import </span>
                     <span className=" text-yellow-400"> </span>
                     <span className=" text-white">express</span>
@@ -267,7 +268,7 @@ const Page = () => {
                     <span className=" text-lime-400">geo-medi.ge</span>
                     <span className=" text-cyan-300">";</span>
                     <br></br>
-                    <br></br>
+
                     <span className=" text-blue-400">const </span>
                     <span className=" text-gray-300">app </span>
                     <span className=" text-purple-400">= </span>
@@ -295,7 +296,7 @@ const Page = () => {
                   </code>
                 </div>
               </div>
-              <div className="flex gap-3 items-center mt-4">
+              <div className="flex flex-wrap gap-3 items-center mt-4">
                 <Badge variant="secondary">JWT</Badge>
                 <Badge variant="secondary">JQuery</Badge>
                 <Badge variant="secondary">MongoDB</Badge>
@@ -377,7 +378,7 @@ const Page = () => {
                   </code>
                 </div>
               </div>
-              <div className="flex gap-3 items-center mt-4">
+              <div className="flex flex-wrap gap-3 items-center mt-4">
                 <Badge variant="secondary">JWT</Badge>
                 <Badge variant="secondary">Next.JS</Badge>
                 <Badge variant="secondary">MongoDB</Badge>

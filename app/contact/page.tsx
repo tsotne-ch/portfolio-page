@@ -43,17 +43,17 @@ const Page = () => {
 
       <div className="mt-10 flex flex-col gap-5">
         <BoxReveal>
-          <p className="text-2xl flex gap-4 font-semibold">
+          <p className="text-xl items-center flex gap-4 font-semibold">
             <FaDiscord size={"2.2rem"} /> .tht1kid
           </p>
         </BoxReveal>
         <BoxReveal>
-          <p className="text-2xl flex gap-4 font-semibold">
+          <p className="text-xl items-center flex gap-4 font-semibold">
             <MdEmail size={"2.2rem"} /> tchavtchavadze.ts@gmail.com
           </p>
         </BoxReveal>
         <BoxReveal>
-          <p className="text-2xl flex gap-4 font-semibold">
+          <p className="text-xl items-center flex gap-4 font-semibold">
             <SiGithub size={"2.2rem"} /> tsotne-ch
           </p>
         </BoxReveal>
