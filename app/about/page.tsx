@@ -168,7 +168,7 @@ const Page = () => {
                   className="w-full group-hover:opacity-25 transition-opacity ease-in-out duration-200 rounded-xl"
                 />
                 <div className="absolute opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-200 top-2 left-2 right-2">
-                  <code className="text-xs md:text-base">
+                  <code className="text-xs  md:block hidden  md:text-base">
                     <span className=" text-blue-400">import </span>
                     <span className=" text-yellow-400"> </span>
                     <span className=" text-white">React</span>
@@ -248,7 +248,7 @@ const Page = () => {
                   className="w-full group-hover:opacity-25 transition-opacity ease-in-out duration-200 rounded-xl"
                 />
                 <div className="absolute opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-200 top-2 left-2 right-2">
-                  <code className="text-xs md:text-base">
+                  <code className="text-xs  md:block hidden  md:text-base">
                     <span className=" text-blue-400">import </span>
                     <span className=" text-yellow-400"> </span>
                     <span className=" text-white">express</span>
@@ -335,7 +335,7 @@ const Page = () => {
                 />
 
                 <div className="absolute opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-200 top-2 left-2 right-2">
-                  <code className="">
+                  <code className="md:text-base md:block hidden text-xs">
                     <span className=" text-cyan-300">"</span>
                     <span className=" text-lime-400">use client</span>
                     <span className=" text-cyan-300">"</span>
