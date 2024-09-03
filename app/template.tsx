@@ -8,12 +8,9 @@ const Template = ({
   children: React.ReactNode;
 }>) => {
   useEffect(() => {
-    console.log("a");
     async function rem() {
       await delay(100);
-      console.log("b");
       document.querySelector(".__ts__anim")?.classList.remove("active");
-      console.log("c");
     }
 
     rem();

@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
 import { Dock, DockIcon } from "@/components/magicui/dock";
 import { ModeToggle } from "@/components/toggle";
-import { Code, House, Mail } from "lucide-react";
+import { Code, House, Mail, Notebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import CoolLink from "@/utils/LinkRoute";
@@ -66,6 +66,17 @@ export default function RootLayout({
                 </CoolLink>
               </DockIcon>
               <DockIcon className="bg-black/10 dark:bg-white/10">
+                <CoolLink href="/blogs">
+                  <Button
+                    variant="outline"
+                    className="rounded-full"
+                    size="icon"
+                  >
+                    <Notebook size={"1.2rem"} />
+                  </Button>
+                </CoolLink>
+              </DockIcon>
+              <DockIcon className="bg-black/10 dark:bg-white/10">
                 <CoolLink href="/contact">
                   <Button
                     variant="outline"
@@ -76,6 +87,7 @@ export default function RootLayout({
                   </Button>
                 </CoolLink>
               </DockIcon>
+
               <DockIcon className="bg-black/10 p-0 dark:bg-white/10">
                 <ModeToggle />
               </DockIcon>

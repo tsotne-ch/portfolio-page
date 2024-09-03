@@ -84,3 +84,7 @@
   transform-origin: bottom;
   transform: scaleY(100%);
 }
+
+code {
+  font-size: 1rem !important;
+}

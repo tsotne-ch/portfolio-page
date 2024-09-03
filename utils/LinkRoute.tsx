@@ -6,6 +6,7 @@ import React, { ReactNode } from "react";
 interface CoolLinkProps extends LinkProps {
   children: ReactNode;
   href: string;
+  className?: string;
 }
 
 export const delay = async (time: number): Promise<void> => {
